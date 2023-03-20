@@ -1,0 +1,916 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+#div1 { 
+    display: inline-flex;
+    width: 99.25%;
+    justify-content: space-between;
+    padding-bottom: 3px;
+}
+
+.snkrgllry {
+    color: white; 
+    font-size: 20px;
+    font-family: Bahnschrift;
+    font-weight: 500;
+    padding-bottom: 2px;
+}
+
+.contact {
+    color: white;
+    padding-top: 2px;
+}
+
+.contact:hover {
+    text-decoration: underline;
+}
+
+#div2 {
+   
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    font-size: 16px;
+    color: white;
+    display: inline-flex;
+    justify-content: space-around;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 79.75%;
+    
+}
+
+* {
+    background-color:black;
+   
+    font-family: "florance";
+    
+}
+
+.nike {
+    position: relative;
+    display: inline-block;
+    color: white;
+}
+
+.nikedropdown {
+    border-style: solid;
+    border: 0.5%;
+    border-color: white;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    margin-top: 12px;
+    padding: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    min-width: 100px;
+    z-index: 2;
+    min-height: 130px;
+    color: white;
+}
+
+.nikedropdownmargin {
+    display: none;
+    opacity: 0%;
+    position: absolute;
+    padding: 5px;
+    padding-top: 19px;
+    padding-bottom: 7px;
+    min-width: 100px;
+    z-index: 1;
+    min-height: 25px;
+}
+
+.nike:hover .nikedropdown {
+    display: flex;
+}
+
+.nike:hover .nikedropdownmargin {
+    display: block;
+}
+
+.nikedropdownmargin:hover .nikedropdown {
+    display: flex;
+}
+
+.nike:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.adidas {
+    position: relative;
+    display: inline-block;
+}
+
+.adidas:hover {
+    text-decoration: underline;
+}
+
+.adidasdropdown {
+    border-style: solid;
+    border: .5%;
+    border-color: white;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    margin-top: 12px;
+    padding: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    min-width: 100px;
+    z-index: 1;
+    min-height: 95px;
+}
+
+.adidasdropdownmargin {
+    display: none;
+    opacity: 0%;
+    position: absolute;
+    padding: 5px;
+    padding-top: 19px;
+    padding-bottom: 7px;
+    min-width: 100px;
+    z-index: 1;
+    min-height: 25px;
+}
+
+.adidas:hover .adidasdropdown {
+    display: flex;
+}
+
+.adidas:hover .adidasdropdownmargin {
+    display: block;
+}
+
+.adidasdropdownmargin:hover .adidasdropdown {
+    display: flex;
+}
+
+.jordan {
+    position: relative;
+    display: inline-block;
+}
+
+.jordan:hover {
+    text-decoration: underline;
+}
+
+.jordandropdown {
+    border-style: solid;
+    border: .5%;
+    border-color: white;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    margin-top: 12px;
+    padding: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    min-width: 100px;
+    z-index: 1;
+    min-height: 130px;
+    color: white;
+}
+
+.jordandropdownmargin {
+    display: none;
+    opacity: 0%;
+    position: absolute;
+    padding: 5px;
+    padding-top: 19px;
+    padding-bottom: 7px;
+    min-width: 100px;
+    z-index: 1;
+    min-height: 25px;
+}
+
+.jordan:hover .jordandropdown {
+    display: flex;
+}
+
+.jordan:hover .jordandropdownmargin {
+    display: block;
+}
+
+.jordandropdownmargin:hover .jordandropdown {
+    display: flex;
+}
+
+.yeezy {
+    position: relative;
+    display: inline-block;
+}
+
+.yeezy:hover {
+    text-decoration: underline;
+}
+
+.yeezydropdown {
+    border-style: solid;
+    border: .5%;
+    border-color: white;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    margin-top: 12px;
+    padding: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    min-width: 100px;
+    z-index: 1;
+    min-height: 160px;
+    color: white;
+}
+
+.yeezydropdownmargin {
+    display: none;
+    opacity: 0%;
+    position: absolute;
+    padding: 5px;
+    padding-top: 19px;
+    padding-bottom: 7px;
+    min-width: 100px;
+    z-index: 1;
+    min-height: 25px;
+}
+
+.yeezy:hover .yeezydropdown {
+    display: flex;
+}
+
+.yeezy:hover .yeezydropdownmargin {
+    display: block;
+}
+
+.nikedropdownmargin:hover .nikedropdown {
+    display: flex;
+}
+
+.bape {
+    position: relative;
+    display: inline-block;
+}
+
+.bape:hover {
+    text-decoration: underline;
+}
+
+.bapedropdown {
+    border-style: solid;
+    border: .5%;
+    border-color: white;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    margin-top: 12px;
+    padding: 5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    min-width: 100px;
+    z-index: 1;
+    min-height: 65px;
+    color: white;
+}
+
+.bapedropdownmargin {
+    display: none;
+    opacity: 0%;
+    position: absolute;
+    padding: 5px;
+    padding-top: 19px;
+    padding-bottom: 7px;
+    min-width: 100px;
+    z-index: 1;
+    min-height: 25px;
+}
+
+.bape:hover .bapedropdown {
+    display: flex;
+}
+
+.bape:hover .bapedropdownmargin {
+    display: block;
+}
+
+.bapedropdownmargin:hover .bapedropdown {
+    display: flex;
+}
+
+#div3 {
+    color: white;
+}
+
+.homepage {
+    background-color: white;
+    color: black;
+    font-size: 40px;
+    font-family: Bahnschrift;
+    font-weight: 500;
+    padding: 7.5px 2.5px 2.5px 6px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#div4 {
+    background-color: black;
+    width: 100%;
+    min-height: fit-content;
+    display: flex;
+}
+
+#div5 {
+    background-color: black;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    margin: 2% 1.5% 2% 2%;
+    width: 47.5%;
+    border-radius: 30px;
+    height: fit-content;
+}
+
+#div6 {
+    background-color: black;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    margin: 2% 2% 2% 1.5%;
+    width: 47.5%;
+    border-radius: 30px;
+    height: fit-content;
+}
+
+.release {
+    color: white;
+    font-size: 40px;
+    background-color: black;
+    font-family: Bahnschrift;
+    font-weight: 500;
+    margin: 30px 0px 0px 30px;
+}
+
+.news { 
+    color: white;
+    background-color: black;
+    font-size: 40px;
+    font-family: Bahnschrift;
+    font-weight: 500;
+    margin: 30px 0px 0px 30px;
+}
+
+.release1{
+    background-color: white;
+    min-height: 106px;
+    margin: 40px 30px 20px 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+    
+.release2 {
+    background-color: white;
+    min-height: 106px;
+    margin: 0px 30px 20px 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.release3 {
+    background-color: white;
+    min-height: 106px;
+    margin: 0px 30px 20px 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.release4 {
+    background-color: white;
+    min-height: 106px;
+    margin: 0px 30px 20px 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.release5 {
+    background-color: white;
+    min-height: 106px;
+    margin: 0px 30px 20px 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.release6 {
+    background-color: white;
+    min-height: 106px;
+    margin: 0px 30px 20px 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.release7 {
+    background-color: white;
+    min-height: 106px;
+    margin: 0px 30px 20px 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.release8 {
+    background-color: white;
+    min-height: 106px;
+    margin: 0px 30px 20px 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+    
+.release9 {
+    background-color: white;
+    min-height: 106px;
+    margin: 0px 30px 20px 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.release10 {
+    background-color: white;
+    min-height: 106px;
+    margin: 0px 30px 20px 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.release11 {
+    background-color: white;
+    min-height: 106px;
+    margin: 0px 30px 20px 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.release12 {
+    background-color: white;
+    min-height: 106px;
+    margin: 0px 30px 20px 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.release13 {
+    background-color: white;
+    min-height: 106px;
+    margin: 0px 30px 20px 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+    
+.release14 {
+    background-color: white;
+    min-height: 106px;
+    margin: 0px 30px 20px 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.release15 {
+    background-color: white;
+    min-height: 106px;
+    margin: 0px 30px 30px 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news1 {
+    background-color: white;
+    min-height: 106px;
+    margin: 40px 30px 20px 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news2 {
+    background-color: white;
+    min-height: 106px;
+    margin: 0px 30px 20px 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.news3 {
+    background-color: white;
+    min-height: 106px;
+    margin: 0px 30px 20px 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.news4 {
+    background-color: white;
+    min-height: 106px;
+    margin: 0px 30px 20px 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.news5 {
+    background-color: white;
+    min-height: 106px;
+    margin: 0px 30px 20px 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.news6 {
+    background-color: white;
+    min-height: 106px;
+    margin: 0px 30px 20px 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.news7 {
+    background-color: white;
+    min-height: 106px;
+    margin: 0px 30px 20px 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news8 {
+    background-color: white;
+    min-height: 106px;
+    margin: 0px 30px 20px 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news9 {
+    background-color: white;
+    min-height: 106px;
+    margin: 0px 30px 20px 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news10 {
+    background-color: white;
+    min-height: 106px;
+    margin: 0px 30px 20px 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.news11 {
+    background-color: white;
+    min-height: 106px;
+    margin: 0px 30px 20px 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.news12 {
+    background-color: white;
+    min-height: 106px;
+    margin: 0px 30px 20px 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news13 {
+    background-color: white;
+    min-height: 106px;
+    margin: 0px 30px 20px 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news14 {
+    background-color: white;
+    min-height: 106px;
+    margin: 0px 30px 20px 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news15 {
+    background-color: white;
+    min-height: 106px;
+    margin: 0px 30px 30px 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footercontact {
+    color: white;
+    font-family: Bahnschrift;
+    font-size: 15px;
+    margin: 20px 0px 0px 32.5px;
+}
+
+.footercontact2 {
+    color: white;
+    font-family: Bahnschrift;
+    font-size: 12.5px;
+    margin: 15px 0px 40px 5px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footeremail {
+    color: white;
+    
+    font-size: 12.5px;
+}
+
+.releasename {
+ 
+    color: black;
+    font-size: 17.5px;
+    font-family: Bahnschrift;
+    font-weight: 500;
+    margin: 10px 0px 0px 10px;
+    height: 17.5px;
+    background-color: white;
+}
+
+.releasedate {
+    color: rgb(75, 74, 74);
+    font-size: 15px;
+    font-family: Bahnschrift;
+    font-weight: 400;
+    margin: 3px 0px 0px 10px;
+    height: 15px;
+    background-color: white;
+}
+    
+.releaseinfo {
+    background-color: white;
+    margin: 10px 0px 0px 10px;
+    height: fit-content;
+}
+
+.releaseimg {
+    background: none;
+    margin-right: 5px;
+}
+
+.releaseimg1 {
+    background: none;
+    margin-right: 5px;
+    margin-top: 9px;
+    margin-left: 5px;
+}
+
+.releasename1 {
+ 
+    color: black;
+    font-size: 17.5px;
+    font-family: Bahnschrift;
+    font-weight: 500;
+    margin: 2.5px 0px 0px 5px;
+    height: 17.5px;
+    background-color: white;
+}
+
+.releasedate1 {
+    color: rgb(75, 74, 74);
+    font-size: 15px;
+    font-family: Bahnschrift;
+    font-weight: 400;
+    margin: 5px 0px 0px 10px;
+    height: 15px;
+    background-color: white;
+}
+    
+.releaseimg2 {
+    background: none;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.newspic {
+    background: none;
+}
+
+.homepagenike {
+    background-image: url("http://cdn.shopify.com/s/files/1/0228/2629/collections/Dunks.jpg?v=1656525481");
+    background-position: center;
+    color: white;
+    font-size: 40px;
+    font-family: Bahnschrift;
+    font-weight: 500;
+    padding: 7.5px 2.5px 2.5px 6px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#div7 {
+    background-color: black;
+    width: 100%;
+    min-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#div8 {
+    background-color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    margin: 2% 1.5% 2% 2%;
+    width: 95%;
+    border-radius: 30px;
+    height: fit-content;
+    display: flex;
+    padding-bottom: 17.5px;
+}
+
+#div9 {
+    background-color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    margin: 2% 1.5% 2% 2%;
+    width: 95%;
+    border-radius: 30px;
+    height: fit-content;
+    display: flex;
+    padding-bottom: 17.5px;
+}
+
+#div10 {
+    background-color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    margin: 2% 1.5% 2% 2%;
+    width: 95%;
+    border-radius: 30px;
+    height: fit-content;
+    display: flex;
+    padding-bottom: 17.5px;
+}
+
+#div11 {
+    background-color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    margin: 2% 1.5% 2% 2%;
+    width: 95%;
+    border-radius: 30px;
+    height: fit-content;
+    display: flex;
+    padding-bottom: 17.5px;
+}
+
+#div12 {
+    background-color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    margin: 2% 1.5% 2% 2%;
+    width: 95%;
+    border-radius: 30px;
+    height: fit-content;
+    display: flex;
+    padding-bottom: 17.5px;
+}
+
+.shoetitle {
+    font-family: bahnschrift;
+    background: none;
+    font-size: 30px;
+    margin: 17.5px 0px 10px 17.5px;
+    font-weight: 500;
+}
+
+.shoeinfo {
+    background: none;
+    font-family: bahnschrift;
+    margin: 7.5px 0px 0px 17.5px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(41, 41, 41);
+}
+
+.shoefather {
+    background: none;
+}
+
+.shoeimg {
+    margin: 25px 15px 0px 10px;
+    background: none;
+}
+
+.shoeimg1 {
+    background: none;
+}
+
+.dropdown1 {
+    color: white;
+}
+
+.homepageyeezy {
+    background-image: url("https://pbs.twimg.com/media/FMn4U_9X0AIRV5T?format=jpg&name=4096x4096");
+    background-position: center;
+    color: white;
+    font-size: 40px;
+    font-family: Bahnschrift;
+    font-weight: 500;
+    padding: 7.5px 2.5px 2.5px 6px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.homepagebape {
+    background-image: url("https://static.displate.com/857x1200/displate/2020-07-31/c343cb07613657ebe5f5f81e20569af6_2ba76789ea6e8df70c82b1817bc0516e.jpg");
+    background-position: center;
+    color: white;
+    font-size: 40px;
+    font-family: Bahnschrift;
+    font-weight: 500;
+    padding: 7.5px 2.5px 2.5px 6px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.homepagejordan {
+    background-image: url("https://cdn.shopify.com/s/files/1/1957/7623/products/V1-Product_1024x1024.jpg?v=1673220752");
+    background-position: center;
+    color: white;
+    font-size: 40px;
+    font-family: Bahnschrift;
+    font-weight: 500;
+    padding: 7.5px 2.5px 2.5px 6px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.homepageadidas {
+    background-image: url("https://talenthouse-res.cloudinary.com/image/upload/c_limit,f_auto,fl_progressive,h_1280,w_1280/v1397149687/user-286157/profile/vkv2ce0dszfclzmjohma.jpg");
+    background-position: center;
+    color: white;
+    font-size: 40px;
+    font-family: Bahnschrift;
+    font-weight: 500;
+    padding: 7.5px 2.5px 2.5px 6px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
